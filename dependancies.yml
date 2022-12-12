@@ -1,0 +1,15 @@
+name: dsi-proj3
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - python=3.7
+  - pytorch
+  - pip:
+    - emoji
+    - ipywidgets==7.4.0
+    - numpy==1.20
+    - pycaret
+    - scikit-learn==0.23.2
+    - transformers
